@@ -1,12 +1,12 @@
-﻿using ALF.API.Catalog.Infrastructure.Models;
+﻿using System;
+using ALF.API.Catalog.Infrastructure.Models;
 using Microsoft.Azure.Cosmos.Table;
-using System;
 
-namespace ALF.API.Catalog.Data.AzureStorage.Models
+namespace ALF.API.Catalog.Data.AzureStorage.TableEntities
 {
-    public sealed class OrganizationTableModel : TableEntity, IOrganizationModel
+    public sealed class OrganizationTableEntity : TableEntity, IOrganizationModel
     {
-        public OrganizationTableModel()
+        public OrganizationTableEntity()
             : base()
         {
             PartitionKey = string.Empty;

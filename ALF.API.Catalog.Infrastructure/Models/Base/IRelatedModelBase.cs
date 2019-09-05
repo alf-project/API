@@ -1,7 +1,7 @@
 ﻿namespace ALF.API.Catalog.Infrastructure.Models.Base
 {
-    public interface IRelatedModelBase<Key, RelatedKey> : IModelBase<Key>
+    public interface IRelatedModelBase<TKey, TRelatedKey> : IModelBase<TKey>
     {
-        RelatedKey RelatedId { get; set; }
+        TRelatedKey RelatedId { get; set; }
     }
 }

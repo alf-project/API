@@ -1,12 +1,12 @@
-﻿using ALF.API.Catalog.Infrastructure.Models;
+﻿using System;
+using ALF.API.Catalog.Infrastructure.Models;
 using Microsoft.Azure.Cosmos.Table;
-using System;
 
-namespace ALF.API.Catalog.Data.AzureStorage.Models
+namespace ALF.API.Catalog.Data.AzureStorage.TableEntities
 {
-    public sealed class BillingProfileTableModel : TableEntity, IBillingProfileModel
+    public sealed class BillingProfileTableEntity : TableEntity, IBillingProfileModel
     {
-        public BillingProfileTableModel()
+        public BillingProfileTableEntity()
             : base()
         {
         }
@@ -24,9 +24,6 @@ namespace ALF.API.Catalog.Data.AzureStorage.Models
             get => Guid.Parse(PartitionKey);
             set => PartitionKey = value.ToString("N");
         }
-
-        [IgnoreProperty]
-        public IOrganizationModel Organization { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public string Beneficiary { get; set; }
         public string TaxId { get; set; }

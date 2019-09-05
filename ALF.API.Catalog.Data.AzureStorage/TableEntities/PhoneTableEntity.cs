@@ -1,12 +1,12 @@
-﻿using ALF.API.Catalog.Infrastructure.Models;
+﻿using System;
+using ALF.API.Catalog.Infrastructure.Models;
 using Microsoft.Azure.Cosmos.Table;
-using System;
 
-namespace ALF.API.Catalog.Data.AzureStorage.Models
+namespace ALF.API.Catalog.Data.AzureStorage.TableEntities
 {
-    public sealed class PhoneTableModel : TableEntity, IPhoneModel
+    public sealed class PhoneTableEntity : TableEntity, IPhoneModel
     {
-        public PhoneTableModel()
+        public PhoneTableEntity()
             : base()
         {
         }
@@ -24,9 +24,6 @@ namespace ALF.API.Catalog.Data.AzureStorage.Models
             get => Guid.Parse(PartitionKey);
             set => PartitionKey = value.ToString("N");
         }
-
-        [IgnoreProperty]
-        public IPersonModel Person { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public string Phone { get; set; }
         public bool IsPrimary { get; set; }

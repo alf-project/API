@@ -1,7 +1,7 @@
 ﻿namespace ALF.API.Catalog.Infrastructure.Models.Base
 {
-    public interface IModelBase<Key>
+    public interface IModelBase<TKey>
     {
-        Key Id { get; set; }
+        TKey Id { get; set; }
     }
 }

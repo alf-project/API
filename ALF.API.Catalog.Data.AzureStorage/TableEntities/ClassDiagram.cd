@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Microsoft.Azure.Cosmos.Table.TableEntity">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="ConvertBack" Hidden="true" />
+      <Property Name="DisablePropertyResolverCache" Hidden="true" />
+      <Property Name="ETag" Hidden="true" />
+      <Method Name="Flatten" Hidden="true" />
+      <Method Name="ReadEntity" Hidden="true" />
+      <Method Name="ReadUserObject" Hidden="true" />
+      <Method Name="TableEntity" Hidden="true" />
+      <Method Name="WriteEntity" Hidden="true" />
+      <Method Name="WriteUserObject" Hidden="true" />
+    </Members>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALF.API.Catalog.Data.AzureStorage.TableEntities.EmailTableEntity">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="EmailTableEntity" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="RelatedId" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Microsoft.Azure.Cosmos.Table.TableEntity" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="1.988" />
+        <Point X="1.25" Y="2.625" />
+        <Point X="4.688" Y="2.625" />
+        <Point X="4.688" Y="1.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TableEntities\EmailTableEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALF.API.Catalog.Data.AzureStorage.TableEntities.PhoneTableEntity">
+    <Position X="6" Y="0.5" Width="2" />
+    <Members>
+      <Property Name="Id" Hidden="true" />
+      <Method Name="PhoneTableEntity" Hidden="true" />
+      <Property Name="RelatedId" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Microsoft.Azure.Cosmos.Table.TableEntity" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="1.988" />
+        <Point X="1.25" Y="2.625" />
+        <Point X="6.812" Y="2.625" />
+        <Point X="6.812" Y="1.925" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>TableEntities\PhoneTableEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALF.API.Catalog.Data.AzureStorage.TableEntities.OrganizationTableEntity">
+    <Position X="0.5" Y="3" Width="2" />
+    <Members>
+      <Property Name="Id" Hidden="true" />
+      <Method Name="OrganizationTableEntity" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Microsoft.Azure.Cosmos.Table.TableEntity" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="1.988" />
+        <Point X="1.25" Y="2.625" />
+        <Point X="2.125" Y="2.625" />
+        <Point X="2.125" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TableEntities\OrganizationTableEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALF.API.Catalog.Data.AzureStorage.TableEntities.PersonTableEntity">
+    <Position X="3.25" Y="3" Width="2" />
+    <Members>
+      <Property Name="Id" Hidden="true" />
+      <Method Name="PersonTableEntity" Hidden="true" />
+      <Property Name="RelatedId" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Microsoft.Azure.Cosmos.Table.TableEntity" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="1.988" />
+        <Point X="1.25" Y="2.625" />
+        <Point X="4.938" Y="2.625" />
+        <Point X="4.938" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQACAEAAAAAAAAAAEAAAAAAAACAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>TableEntities\PersonTableEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ALF.API.Catalog.Data.AzureStorage.TableEntities.BillingProfileTableEntity">
+    <Position X="6" Y="3" Width="2" />
+    <Members>
+      <Method Name="BillingProfileTableEntity" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="RelatedId" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Microsoft.Azure.Cosmos.Table.TableEntity" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="1.988" />
+        <Point X="1.25" Y="2.625" />
+        <Point X="7.688" Y="2.625" />
+        <Point X="7.688" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAIE=</HashCode>
+      <FileName>TableEntities\BillingProfileTableEntity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
