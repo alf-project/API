@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALF.API.Catalog.Function", "ALF.API.Catalog.Function\ALF.API.Catalog.Function.csproj", "{01F2B398-1994-4BA6-8FBD-537DBDCF9E60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALF.API.Catalog.Infrastructure", "ALF.API.Catalog.Infrastructure\ALF.API.Catalog.Infrastructure.csproj", "{A1F6B880-C7C0-42A3-86EA-9AD57E78BFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALF.API.Catalog.Data.AzureStorage", "ALF.API.Catalog.Data.AzureStorage\ALF.API.Catalog.Data.AzureStorage.csproj", "{4157AE5E-58F5-482D-BC27-B95CFAFB2AAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01F2B398-1994-4BA6-8FBD-537DBDCF9E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F2B398-1994-4BA6-8FBD-537DBDCF9E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F2B398-1994-4BA6-8FBD-537DBDCF9E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F2B398-1994-4BA6-8FBD-537DBDCF9E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F6B880-C7C0-42A3-86EA-9AD57E78BFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F6B880-C7C0-42A3-86EA-9AD57E78BFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F6B880-C7C0-42A3-86EA-9AD57E78BFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F6B880-C7C0-42A3-86EA-9AD57E78BFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4157AE5E-58F5-482D-BC27-B95CFAFB2AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4157AE5E-58F5-482D-BC27-B95CFAFB2AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4157AE5E-58F5-482D-BC27-B95CFAFB2AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4157AE5E-58F5-482D-BC27-B95CFAFB2AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BF1FB9D-1954-4247-9DFA-BAA47E15BF23}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.IPersonModel">
+    <Position X="3.5" Y="4.5" Width="2" />
+    <AssociationLine Name="Organization" Type="ALF.API.Catalog.Infrastructure.Models.IOrganizationModel" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="4.812" />
+        <Point X="3.125" Y="4.812" />
+        <Point X="3.125" Y="3.229" />
+        <Point X="2.25" Y="3.229" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAg=</HashCode>
+      <FileName>Models\IPersonModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Organization" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.IOrganizationModel">
+    <Position X="0.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IOrganizationModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.Base.IModelBase&lt;Key&gt;">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Base\IModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.Base.IRelatedModelBase&lt;Key, RelatedKey&gt;">
+    <Position X="3.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Base\IRelatedModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.IContactModel">
+    <Position X="7.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IContactModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.IEmailModel">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IEmailModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.IPhoneModel">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\IPhoneModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.Base.ICollectionItemModelBase">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Base\ICollectionItemModelBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ALF.API.Catalog.Infrastructure.Models.IBillingProfileModel">
+    <Position X="3.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIIE=</HashCode>
+      <FileName>Models\IBillingProfileModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Organization" />
+    </ShowAsAssociation>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
